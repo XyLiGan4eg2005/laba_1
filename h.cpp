@@ -27,6 +27,11 @@ int main()
     cout << "‚¢¥¤¨â¥ áâà®ªy: " << endl; 
     getline(cin, str);//¢¢®¤ áâà®ª¨ 
     int kolCount=vowelCount(str); 
-    cout << "‚ áâà®ª¥ " << kolCount << " £« á­ëå ¡ãª¢"; 
+    cout << "‚ áâà®ª¥ " << kolCount << " £« á­ëå ¡ãª¢";
+   cout<<"Enter "<<endl;
+	string str2="";
+	getline(cin, str2);
+	kolCount=vowelCount(str2);
+ cout << "ï¿½ ï¿½ï¿½à®ªï¿½ " << kolCount << " ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ãª¢"; 
     return 0; 
 }
