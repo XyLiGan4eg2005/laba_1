@@ -12,5 +12,6 @@ int isPali(std::string str) {
 }
 
 int main(){
-    cout << isPali("heh");
+    cout << isPali("heh")<< endl;
+    cout <<isPali("herh")<< endl;
 }
